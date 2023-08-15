@@ -1,0 +1,50 @@
+
+body{
+
+background-color: aliceblue;
+
+
+
+}
+
+#animate {
+
+background-color: black;
+height: 200px;
+width: 200px;
+position: relative;
+left: 0;
+transition: 2s;
+
+}
+.endingPosition{
+
+    left: 200px !important;
+}
+
+p {
+    height: 220px;
+    width: 220px;
+    border: 4px solid black;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+#ThisDiv {
+
+background-color: black;
+height: 500px;
+
+}
+
+#orange{
+
+background-color: orange;
+height: 100px;
+width: 100em;
+
+}
+
+/** Display flex has an series on options to help you control the direction and centering of Div'
+/** Element.styles helps only style on div by using position.Postion realtive makes the div move able.
